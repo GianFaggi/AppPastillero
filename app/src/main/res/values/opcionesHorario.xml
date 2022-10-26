@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Zona_Horaria">
+        <item>Zona Horaria</item>
+        <item>Argentina(UTC -3)</item>
+        <item>Brasil(UTC -5)</item>
+        <item>Estados Unidos(UTC -7)</item>
+    </string-array>
+</resources>

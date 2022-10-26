@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">AppPastillero</string>
+    <string name="Ingresar">Ingresar</string>
+    <string name="Registrarse">Registrarse</string>
+    <string name="email">Email</string>
+    <string name="password">Contraseña</string>
+    <string name="Confirmar_Registro">Confirmar</string>
+    <string name="hint_Apellido_Registro">Ingrese su Apellido</string>
+    <string name="hint_Nombre_Registro">Ingrese su Nombre</string>
+    <string name="hint_Edad_Registro">Ingrese su Edad</string>
+    <string name="hint_Email_Registro">Ingrese su Email</string>
+    <string name="hint_Contraseña_Registro">Ingrese su Contraseña</string>
+    <string name="perfil">PERFIL</string>
+    <string name="ver_dosis">VER DOSIS</string>
+    <string name="administrar_dosis">ADMINISTRAR DOSIS</string>
+    <string name="RegistroExitoso">Registro realizado</string>
+    <string name="IngresoExitoso">Ingresaste satisfactoriamente</string>
+    <string name="CSExitoso">Se ha cerrado la sesion</string>
+    <string name="C_Horario_Exitoso">Se ha guardado el horario exitosamente</string>
+    <string name="nombre_Dosis">Nombre</string>
+    <string name="periodo">Periodo:</string>
+    <string name="proxima">Proxima:</string>
+    <string name="todo">TODO</string>
+    <string name="PDFExitoso">PDF descargado con exito</string>
+</resources>

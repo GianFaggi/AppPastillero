@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Formato_hora">
+        <item>Formato Hora</item>
+        <item>Reloj de 12 horas (AM|PM)</item>
+        <item>Reloj de 24 horas</item>
+    </string-array>
+</resources>

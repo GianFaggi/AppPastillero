@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2e8c4"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="6dp"
+            tools:ignore="UselessParent">
+
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="4dp"
+                android:layout_marginTop="2dp"
+                android:orientation="vertical"
+                android:layout_marginStart="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:id="@+id/Nombre_Dosis"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="70dp"
+                        android:text="@string/nombre_Dosis"
+                        android:textColor="#607d8b"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/info_Nombre_Dosis"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="nombre dosis"
+                        android:textSize="18sp"
+                        android:textColor="#2b879e"
+                        android:layout_marginStart="5dp"
+                        tools:ignore="HardcodedText" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:id="@+id/Periodo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="@string/periodo"
+                        android:textColor="#607d8b"
+                        android:layout_marginEnd="68dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/info_Periodo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="8 horas"
+                        android:textSize="18sp"
+                        android:textColor="#2b879e"
+                        android:layout_marginStart="5dp"
+                        tools:ignore="HardcodedText" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:id="@+id/Proxima"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="@string/proxima"
+                        android:layout_marginEnd="64dp"
+                        android:textColor="#607d8b"
+                        />
+
+                    <TextView
+                        android:id="@+id/info_Proxima"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="30 minutos"
+                        android:textSize="18sp"
+                        android:textColor="#2b879e"
+                        android:layout_marginStart="5dp"
+                        tools:ignore="HardcodedText" />
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
